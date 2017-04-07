@@ -21,9 +21,9 @@ namespace TEMPerService
                 });
 
                 x.RunAsLocalSystem();
-                x.SetDescription("Nancy-SelfHost example");
-                x.SetDisplayName("Nancy-SelfHost Service");
-                x.SetServiceName("Nancy-SelfHost");
+                x.SetDescription("TEMPer Service");
+                x.SetDisplayName("TEMPer API");
+                x.SetServiceName("TEMPer");
             });
         }
     }
